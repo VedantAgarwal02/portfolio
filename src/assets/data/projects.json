@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Jobs Portal",
+      "imageSrc": "projects/jobsPortal.png",
+      "description": "Implemented streamlined job portal for effortless job postings and seamless access for seekers. Also, Created a user-friendly recruiter dashboard for effortless job posting, editing, and removal.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://jobs-portal-frontend-vedantagarwal02.vercel.app/",
+      "source": "https://github.com/VedantAgarwal02/JobsPortal_Backend"
+    },
+    {
+      "title": "Notes Portal",
+      "imageSrc": "projects/notesPortal.png",
+      "description": " Created a portal for sharing notes across subjects, which are posted by fellow students. Collaborated with a teammate, cutting development time and boosting project efficiency",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://notes-frontend-amber.vercel.app",
+      "source": "https://github.com/VedantAgarwal02/notesFrontend"
+    },
+    {
+      "title": "Netflix Frontend Clone",
+      "imageSrc": "projects/project.png",
+      "description": "Designed Netflix-like frontend for diverse movie and TV show selection. Integrated ReactJS forthe frontend, utilized Redux for state management, and leveraged Firebase for the backend.",
+      "skills": ["React", "Javascript", "Redux"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]

@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.mainElement {
+    position: relative;
+    background: rgba(12, 12, 12, 0.60);
+    border-radius: 15px;
+    margin-top: 129px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 73px;
+}
+
+.heading {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+.aboutImg{
+    width: 35%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 25px;
+    color: var(--color-text);
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-size: 0 100%;
+    transition:  0.5s;
+    background-repeat: no-repeat;
+}
+
+.item:hover {
+    background-size: 100% 100%;
+}
+
+.itemImg {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.skillTitle {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+}
+
+.skillDesc {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.25px;
+}
+
+@media screen and (max-width:830px) {
+    .aboutImg {
+        display: none;
+    }
+    .mainElement{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .items {
+        margin-top: 29px;
+    }
+
+    .item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

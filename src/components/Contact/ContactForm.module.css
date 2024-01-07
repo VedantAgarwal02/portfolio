@@ -1,0 +1,47 @@
+@import '../../vars.css';
+
+.container {
+    color: var(--color-text);
+    margin-top: 76px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.container > table {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-left:10px;
+    padding-right:10px;
+}
+
+table>tr>td {
+    align-items: center;
+    margin:5px 0px;
+    font-size: 20px;
+}
+
+table>tr>td>button {
+    width: 80px;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+table>tr>td>button:hover{
+    cursor:pointer;
+}
+
+.inputBox {
+    font-size: 20px;
+    margin: 5px 0px;
+}
